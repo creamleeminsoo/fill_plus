@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/android_popu1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_popu1"
+        android:clipToOutline="true"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/아이디"
+        android:layout_width="327dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="닉네임 입력해주세요"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/변경완료"
+        android:layout_width="394dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="17dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="변경"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/android_popu1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/android_popu1"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="410dp"
+        android:text="    "
+        android:contentDescription="사용"
+        app:layout_constraintBottom_toBottomOf="@+id/android_popu1"
+        app:layout_constraintEnd_toEndOf="@+id/android_popu1"
+        app:layout_constraintStart_toStartOf="@+id/android_popu1"
+        app:layout_constraintTop_toTopOf="@+id/android_popu1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

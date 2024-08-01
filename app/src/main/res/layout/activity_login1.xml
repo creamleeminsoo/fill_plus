@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/input_text_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.loginActivity1">
+
+    <TextView
+        android:id="@+id/android_lar6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_login1"
+        android:clipToOutline="true"
+
+        tools:ignore="MissingConstraints,RedundantNamespace,UnusedAttribute"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/이메일아이디"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="이메일 id :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/비밀번호"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:hint="pw :"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_googleSignIn"
+        android:layout_width="225dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/android_lar6"
+        app:layout_constraintVertical_bias="0.771">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <Button
+        android:id="@+id/회원가입버튼"
+        android:layout_width="223dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#51F30707"
+        android:text="회원가입"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/android_lar6"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <Button
+        android:id="@+id/로그인"
+        android:layout_width="223dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#51F30707"
+        android:text="로그인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/android_lar6"
+        app:layout_constraintVertical_bias="0.321" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

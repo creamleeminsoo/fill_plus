@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "808601014201",
+    "project_id": "fillplus-9553a",
+    "storage_bucket": "fillplus-9553a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808601014201:android:969b1ee7263e2641497068",
+        "android_client_info": {
+          "package_name": "com.example.fill_plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808601014201-tqjee97s7rtbp1jlbmsl2dltmh6sne79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fill_plus",
+            "certificate_hash": "c230c9c388a3d4a2f828e04baf00847e4040611a"
+          }
+        },
+        {
+          "client_id": "808601014201-vebu1ngruuu5mhnk3atqktahmp1pmg44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu7caqNiSgFS8BEzdVBVLl7etJhPYyCec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808601014201-cfcn88l38t7hr03g7cufc7q6to632t3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

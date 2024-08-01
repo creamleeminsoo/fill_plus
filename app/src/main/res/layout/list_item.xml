@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/id_pill"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img2" />
+
+        <TextView
+            android:id="@+id/tv_catrgori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="카테고리: 비타민"
+            android:textColorHint="#E3ABAB"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/id_pill"
+            app:layout_constraintStart_toEndOf="@+id/id_pill"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name2" />
+
+        <TextView
+            android:id="@+id/tv_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="9dp"
+            android:text="NOW Foods, 비타민A,10,000IU"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_catrgori"
+            app:layout_constraintStart_toEndOf="@+id/id_pill"
+            app:layout_constraintTop_toTopOf="@+id/id_pill" />
+
+        <Button
+            android:id="@+id/button53"
+            android:layout_width="69dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="15dp"
+            android:text=" "
+            android:textColor="#FF0000"
+            android:contentDescription="v"
+            android:backgroundTint="#D2FDFA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_name2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

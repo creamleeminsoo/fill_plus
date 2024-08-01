@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android_lar41"
+    tools:context=".main.MainActivity4">
+
+    <ImageButton
+        android:id="@+id/fixedButton2"
+        android:layout_width="53dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|left"
+        android:backgroundTint="#51F30707"
+        android:contentDescription="뒤로 가기 버튼"
+        android:src="@drawable/arrow" />
+
+    <Button
+            android:id="@+id/button_1"
+            android:layout_width="83dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|right"
+            android:backgroundTint="#51F30707"
+            android:text="비교" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- 흰색 박스 -->
+
+
+
+            <LinearLayout
+                android:layout_width="301dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/search" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/아이디"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:hint="  Fillplus 검색하기" />
+
+                <Button
+                    android:id="@+id/button_500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:backgroundTint="#51F30707"
+                    android:text="검색" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+            <!-- 영양제1 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_1"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="이름을 입력하세요"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_1"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="제조사를 입력하세요"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/chk_button_1"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:backgroundTint="#D2FDFA"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_101"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2" />
+
+
+            <!-- 영양제2 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_2"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="이름을 입력하세요"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_2"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="제조사를 입력하세요"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_17"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text="ㅤ"
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <!-- 영양제3 -->
+            <ImageButton
+                android:id="@+id/button_102"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/round2"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_3"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_3"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_18"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text="ㅤ"
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_103"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="crtt"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2"
+                android:background="@drawable/round2"
+                tools:ignore="HardcodedText" />
+            <!-- 영양제4 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_4"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_4"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_19"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_104"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2" />
+            <!-- 영양제5 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_5"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_5"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_20"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_105"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:background="@drawable/round2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2" />
+            <!-- 영양제6 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_6"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_6"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_21"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_106"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2" />
+            <!-- 영양제7 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_7"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_7"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_22"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_107"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2"
+                android:scaleType="fitCenter" />
+            <!-- 영양제8 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_8"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_8"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_23"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_108"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2"
+                android:scaleType="fitCenter" />
+            <!-- 영양제9 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_9"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_9"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_24"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_109"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2"
+                tools:ignore="HardcodedText" />
+            <!-- 영양제10 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_10"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_10"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_25"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_110"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2" />
+
+            <!-- 영양제11 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_11"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_11"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_26"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_111"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:background="@drawable/round2"
+                android:src="@drawable/cart2" />
+            <!-- 영양제12 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_12"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_12"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_27"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_112"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:background="@drawable/round2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2"
+                tools:ignore="HardcodedText" />
+
+            <!-- 영양제13 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_13"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_13"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_28"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_113"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:background="@drawable/round2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2"
+                tools:ignore="HardcodedText" />
+
+            <!-- 영양제14 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_14"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_14"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_29"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_114"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2"
+                android:background="@drawable/round2"
+                tools:ignore="HardcodedText" />
+            <!-- 영양제15 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="118dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/lmg1" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름:" />
+
+                        <TextView
+                            android:id="@+id/name_15"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="이름을 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사:" />
+
+                        <TextView
+                            android:id="@+id/brand_15"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="제조사를 입력하세요"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button_30"
+                    android:layout_width="72dp"
+                    android:layout_height="66dp"
+                    android:backgroundTint="#D2FDFA"
+                    android:contentDescription="v"
+                    android:text=""
+                    android:textColor="#FF0000"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/button_115"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:contentDescription="cart"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cart2"
+                android:background="@drawable/round2"
+                tools:ignore="HardcodedText" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/fixedButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:backgroundTint="#51F30707"
+        android:contentDescription="clear"
+        android:text=" " />
+
+
+
+
+</LinearLayout>
+

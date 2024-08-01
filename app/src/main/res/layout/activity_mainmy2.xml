@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/input_text_12"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity12">
+
+    <TextView
+        android:id="@+id/android_my2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_my2"
+        android:clipToOutline="true"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RedundantNamespace,UnusedAttribute"
+        tools:layout_editor_absoluteX="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="84dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="506dp"
+        app:layout_constraintBottom_toBottomOf="@+id/android_my2"
+        app:layout_constraintEnd_toEndOf="@+id/android_my2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/android_my2"
+        app:layout_constraintTop_toTopOf="@+id/android_my2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/youngwoman" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="677dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="10으로이동"
+        android:text="  "
+        app:layout_constraintBottom_toBottomOf="@+id/android_my2"
+        app:layout_constraintEnd_toEndOf="@+id/android_my2"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/android_my2"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="18dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="비밀번호"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="18dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="로그아웃"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="18dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="회원탈퇴"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <Button
+        android:id="@+id/nickname_saveButton"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="18dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="회원탈퇴"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="649dp"
+        app:layout_constraintBottom_toBottomOf="@+id/android_my2"
+        app:layout_constraintEnd_toEndOf="@+id/android_my2"
+        app:layout_constraintStart_toStartOf="@+id/android_my2"
+        app:layout_constraintTop_toTopOf="@+id/android_my2"
+        app:srcCompat="@drawable/top" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/아이디"
+        android:layout_width="225dp"
+        android:layout_height="48dp"
+        android:hint="닉네임 입력 :"
+        app:layout_constraintBottom_toBottomOf="@+id/android_my2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

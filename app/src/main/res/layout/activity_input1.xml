@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/input_text_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".input.InputActivity1">
+    <TextView
+        android:id="@+id/android_input1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_input1"
+        android:clipToOutline="true"
+        tools:ignore="MissingConstraints,RedundantNamespace,UnusedAttribute"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/술"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:hint="닉네임 입력 :"
+        app:layout_constraintBottom_toTopOf="@+id/담배"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/담배"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:hint="나이(만) 입력 :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/운동"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:hint="체중(kg) 입력 :"
+        app:layout_constraintBottom_toTopOf="@+id/햇빛"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/담배"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/햇빛"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:hint="신장(cm) 입력 :"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/귀_청력"
+        android:layout_width="105dp"
+        android:layout_height="87dp"
+        android:background="@android:color/transparent"
+        android:text="male"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+
+    <Button
+        android:id="@+id/femaleButton"
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:background="@android:color/transparent"
+        android:text="female"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:text="uid->name에 저장"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <TextView
+        android:id="@+id/gender_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ㅤ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/android_input1"
+        app:layout_constraintVertical_bias="0.716" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

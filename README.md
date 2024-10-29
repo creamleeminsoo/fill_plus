@@ -58,3 +58,17 @@
 
 ![image](https://github.com/user-attachments/assets/315b226d-4c09-4084-9cf2-c22dd56bc3f2)
 
+## 영양제 비교 기능
+
+![화면_캡처_2024-08-17_142923](https://github.com/user-attachments/assets/271e71b1-68fc-4bc1-b97d-3829d1fea44d)
+
+원하는 카테고리에 들어가서 비교하고 싶은 영양제 2개를 선택
+
+![화면_캡처_2024-08-17_142956](https://github.com/user-attachments/assets/df191e2e-e686-4dd5-8980-f5166877d32f)
+
+영양제 영양성분 함량을 원형그래프/막대그래프로 표시해주며
+
+사용자가 더욱더 정확한 정보를 얻을수있도록 GPT API를 이용해 영양성분 비교
+
+
+
